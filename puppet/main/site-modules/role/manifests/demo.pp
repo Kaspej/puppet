@@ -2,5 +2,5 @@
 # This is demo role only profiles should be included here.
 class role::demo {
   include profile::example
-  # include profile::nexus
+  # include profile::nexus::install
 }

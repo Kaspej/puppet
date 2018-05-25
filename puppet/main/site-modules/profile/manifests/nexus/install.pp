@@ -1,4 +1,4 @@
-class profile::nexus 
+class profile::nexus::install
 (
     $version,
     $revision,

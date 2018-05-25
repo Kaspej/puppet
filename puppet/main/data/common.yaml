@@ -2,9 +2,19 @@
 classes:
   - role::demo
 
-profile::nexus::download_site:  'http://download.sonatype.com/nexus/3'
-profile::nexus::java_package:   'java-1.8.0-openjdk-devel'
-profile::nexus::nexus_home_dir: 'nexus3'
-profile::nexus::nexus_root:     '/opt'
-profile::nexus::revision:       '01'
-profile::nexus::version:        '3.11.0'
+
+
+# profile::nexus::download_site:  'http://download.sonatype.com/nexus/3'
+# profile::nexus::java_package:   'java-1.8.0-openjdk-devel'
+# profile::nexus::nexus_home_dir: 'nexus3'
+# profile::nexus::nexus_root:     '/opt'
+# profile::nexus::revision:       '01'
+# profile::nexus::version:        '3.11.0'
+
+
+# profile::nexus::install::download_site:  'http://download.sonatype.com/nexus/3'
+# profile::nexus::install::java_package:   'java-1.8.0-openjdk-devel'
+# profile::nexus::install::nexus_home_dir: 'nexus3'
+# profile::nexus::install::nexus_root:     '/opt'
+# profile::nexus::install::revision:       '01'
+# profile::nexus::install::version:        '3.11.0'
