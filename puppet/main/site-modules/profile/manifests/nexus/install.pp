@@ -13,7 +13,7 @@ class profile::nexus::install
   class{ '::java':
     package  => $java_package,
   }
-  $version = hiera(profile::nexus::install::version)
+  # $version = hiera(profile::nexus::install::version)
   class{ '::nexus':
     version         => $version,
     revision        => $revision,
